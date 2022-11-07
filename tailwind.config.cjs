@@ -15,7 +15,7 @@ module.exports = {
       500: '#425A7D',
       700: '#2A3240',
     },
-    'marcilio-orange': '#2A3240',
+    'marcilio-orange': '#DF7356',
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
