@@ -14,7 +14,7 @@ export function Footer(){
               <FastLinkFooter children='Notícias'/>
               <FastLinkFooter children='Contato'/>
            </div>
-           <div className='flex items-center flex-col w-1/3  flex flex-col items-center'>
+           <div className='flex items-center flex-col'>
               <div className='font-bold mb-2'>Venha nos conhecer!</div>
               <button className='bg-marcilio-blue-700 w-56 p-2 rounded-xl flex items-center justify-center hover:bg-marcilio-blue-500 transition 300ms'>
                 <MapPin size={24} color='white'/>
