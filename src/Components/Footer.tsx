@@ -6,7 +6,7 @@ import { InstagramLogo, LinkedinLogo, FacebookLogo, TwitterLogo, MapPin } from '
 export function Footer(){
     return (
       <div className="h-[20vh] bg-marcilio-blue-300 flex items-center justify-center"> 
-        <div className='w-3/4 flex items-center space-between gap-24'>
+        <div className='w-[80%] flex items-center space-between gap-24'>
            <img className='h-24  items-center' src={BlueLogo} alt=""/>
            <div className="w-1/3  flex flex-col items-center">           
               <FastLinkFooter children='Home'/>
