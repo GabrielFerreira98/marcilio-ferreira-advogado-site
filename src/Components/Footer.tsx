@@ -5,10 +5,10 @@ import { InstagramLogo, LinkedinLogo, FacebookLogo, TwitterLogo, MapPin } from '
 
 export function Footer(){
     return (
-      <div className="h-[20vh] bg-marcilio-blue-300 flex items-center justify-center">
-        <div className='w-auto flex items-center gap-24'>
-           <img className='h-24' src={BlueLogo} alt=""/>
-           <div>           
+      <div className="h-[20vh] bg-marcilio-blue-300 flex items-center justify-center"> 
+        <div className='w-3/4 flex items-center space-between gap-24'>
+           <img className='h-24  items-center' src={BlueLogo} alt=""/>
+           <div className="w-1/3  flex flex-col items-center">           
               <FastLinkFooter children='Home'/>
               <FastLinkFooter children='Sobre'/>
               <FastLinkFooter children='Notícias'/>
@@ -23,7 +23,7 @@ export function Footer(){
                 </div>
               </button>
            </div>
-           <div>
+           <div className='w-1/3  flex flex-col items-center'>
               <div className='font-bold mb-2'>Siga-nos!</div>
               <div className='flex gap-2'>
                 <InstagramLogo size={32} cursor='pointer'/>
