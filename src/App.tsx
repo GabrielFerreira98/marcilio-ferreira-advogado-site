@@ -6,10 +6,12 @@ import { About } from "./Pages/About"
 import { Contact } from "./Pages/Contact"
 import { Notices } from "./Pages/Notices"
 import { WhatsAppButton } from "./Components/WhatsAppButton"
+import { InstagramPosts } from "./Components/InstagramPosts"
 
 function App() {
   return (
     <>
+      <InstagramPosts/>
       <Header/>
       <Home/>
       <About/>
